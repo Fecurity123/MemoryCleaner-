@@ -1,7 +1,0 @@
-C:\Users\fecur\Desktop\MemoryCCleaner\bin\Debug\MemoryCCleaner.exe.config
-C:\Users\fecur\Desktop\MemoryCCleaner\bin\Debug\MemoryCCleaner.exe
-C:\Users\fecur\Desktop\MemoryCCleaner\bin\Debug\MemoryCCleaner.pdb
-C:\Users\fecur\Desktop\MemoryCCleaner\obj\Debug\MemoryCCleaner.csproj.AssemblyReference.cache
-C:\Users\fecur\Desktop\MemoryCCleaner\obj\Debug\MemoryCCleaner.csproj.CoreCompileInputs.cache
-C:\Users\fecur\Desktop\MemoryCCleaner\obj\Debug\MemoryCCleaner.exe
-C:\Users\fecur\Desktop\MemoryCCleaner\obj\Debug\MemoryCCleaner.pdb
