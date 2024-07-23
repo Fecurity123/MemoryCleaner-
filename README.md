@@ -1,122 +1,61 @@
 # Memory Cleaner
 
-Memory Cleaner is a tool designed to help clean up temporary files and cache directories from various applications, freeing up disk space and optimizing system performance. It also provides logging for the cleanup operations performed.
+Memory Cleaner — это инструмент, предназначенный для очистки временных файлов и кэша различных приложений, освобождая дисковое пространство и оптимизируя производительность системы. Он также предоставляет логирование для выполненных операций очистки.
 
-## Features
+## Особенности
 
-- Cleans temporary files from the system.
-- Removes browser cache for Chrome and Firefox.
-- Logs the results of cleanup operations to a file.
-- Provides memory usage statistics after cleanup.
+- Очистка временных файлов системы.
+- Удаление кэша браузеров Chrome и Firefox.
+- Логирование результатов операций очистки в файл.
+- Отображение статистики использования памяти после очистки.
 
-## Installation
+## Установка
 
-1. **Clone the repository:**
-
-    ```bash
-    git clone https://github.com/yourusername/memory-cleaner.git
-    ```
-
-2. **Navigate to the project directory:**
+1. **Клонируйте репозиторий:**
 
     ```bash
-    cd memory-cleaner
+    git clone https://github.com/Fecurity123/MemoryCleaner.git
     ```
 
-3. **Build the project:**
+2. **Перейдите в каталог проекта:**
 
     ```bash
-    dotnet build
+    cd MemoryCleaner
     ```
 
-## Usage
-
-1. **Run the application:**
-
-    ```bash
-    dotnet run
-    ```
-
-   By default, the log file will be created or updated in the root directory of the project as `example.txt`.
-
-2. **Check the log file:**
-
-    The log file will contain information about the cleanup operations, including any errors encountered and the size of temporary files cleaned.
-
-## Configuration
-
-You can configure the path to the log file in the `Program.cs` file. The default path is `example.txt`.
-
-## Contributing
-
-Contributions are welcome! Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute to this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- This project was inspired by the need to keep the system clean and optimized.
-- Thanks to the open-source community for their valuable tools and libraries.
-# Memory Cleaner
-
-Memory Cleaner is a tool designed to help clean up temporary files and cache directories from various applications, freeing up disk space and optimizing system performance. It also provides logging for the cleanup operations performed.
-
-## Features
-
-- Cleans temporary files from the system.
-- Removes browser cache for Chrome and Firefox.
-- Logs the results of cleanup operations to a file.
-- Provides memory usage statistics after cleanup.
-
-## Installation
-
-1. **Clone the repository:**
-
-    ```bash
-    git clone https://github.com/yourusername/memory-cleaner.git
-    ```
-
-2. **Navigate to the project directory:**
-
-    ```bash
-    cd memory-cleaner
-    ```
-
-3. **Build the project:**
+3. **Постройте проект:**
 
     ```bash
     dotnet build
     ```
 
-## Usage
+## Использование
 
-1. **Run the application:**
+1. **Запустите приложение:**
 
     ```bash
     dotnet run
     ```
 
-   By default, the log file will be created or updated in the root directory of the project as `example.txt`.
+   По умолчанию файл лога будет создан или обновлен в корневом каталоге проекта под именем `example.txt`.
 
-2. **Check the log file:**
+2. **Проверьте файл лога:**
 
-    The log file will contain information about the cleanup operations, including any errors encountered and the size of temporary files cleaned.
+    В файле лога будут содержаться сведения о выполненных операциях очистки, включая любые возникшие ошибки и размер очищенных временных файлов.
 
-## Configuration
+## Конфигурация
 
-You can configure the path to the log file in the `Program.cs` file. The default path is `example.txt`.
+Вы можете настроить путь к файлу лога в файле `Program.cs`. По умолчанию путь установлен на `example.txt`.
 
-## Contributing
+## Содействие
 
-Contributions are welcome! Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute to this project.
+Ваш вклад приветствуется! Пожалуйста, ознакомьтесь с [CONTRIBUTING.md](CONTRIBUTING.md) для получения рекомендаций о том, как внести свой вклад в этот проект.
 
-## License
+## Лицензия
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Этот проект лицензирован на условиях лицензии MIT — см. [LICENSE](LICENSE) для получения подробной информации.
 
-## Acknowledgments
+## Благодарности
 
-- This project was inspired by the need to keep the system clean and optimized.
-- Thanks to the open-source community for their valuable tools and libraries.
+- Этот проект был вдохновлен необходимостью поддержания системы в чистоте и оптимизированном состоянии.
+- Спасибо сообществу с открытым исходным кодом за их ценные инструменты и библиотеки.
