@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 
 namespace MemoryCleaner
@@ -15,7 +15,7 @@ namespace MemoryCleaner
 
         public void InitializeResources()
         {
-            // Initialization of resources (if needed)
+          
         }
 
         public void CleanCache()
@@ -52,7 +52,7 @@ namespace MemoryCleaner
                     }
                     catch (Exception ex)
                     {
-                        // Handle file deletion exception but do not log every error
+                       
                     }
                 }
             }
@@ -78,7 +78,7 @@ namespace MemoryCleaner
                     }
                     catch (Exception ex)
                     {
-                        // Handle directory deletion exception but do not log every error
+                      
                     }
                 }
             }
@@ -98,7 +98,6 @@ namespace MemoryCleaner
                         }
                         catch (Exception ex)
                         {
-                            // Handle file deletion exception but do not log every error
                         }
                     }
 
@@ -112,13 +111,13 @@ namespace MemoryCleaner
             }
             catch (Exception ex)
             {
-                // Handle directory deletion exception but do not log every error
+               
             }
         }
 
         private bool IsSystemFile(FileInfo fileInfo)
         {
-            // Simple check to avoid deleting system files (adjust as needed)
+          
             string fileName = fileInfo.Name.ToLower();
             return fileName.Contains("system") || fileName.Contains("config");
         }
@@ -144,7 +143,7 @@ namespace MemoryCleaner
             {
                 if (disposing)
                 {
-                    // Dispose resources if needed
+                 
                 }
                 disposed = true;
             }
